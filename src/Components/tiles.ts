@@ -1,0 +1,42 @@
+export const mockTiles = [
+  {
+    id: 1,
+    name: "tile1",
+    status: "inTradingDesk",
+    active : false,
+    size: { width: "300px", height: "100px" },
+    position: { x: 0, y: 0 },
+  },
+  {
+    id: 2,
+    name: "tile2",
+    status: "inTradingDesk",
+    active : false,
+    size: { width: "300px", height: "100px" },
+    position: { x: 0, y: 0 },
+  },
+  {
+    id: 3,
+    name: "tile3",
+    status: "inTradingDesk",
+    active : false,
+    size: { width: "300px", height: "100px" },
+    position: { x: 0, y: 0 },
+  },
+  {
+    id: 4,
+    name: "tile4",
+    status: "inTradingDesk",
+    active : false,
+    size: { width: "300px", height: "100px" },
+    position: { x: 0, y: 0 },
+  },
+  {
+    id: 5,
+    name: "tile5",
+    status: "inTradingDesk",
+    active : false,
+    size: { width: "300px", height: "100px" },
+    position: { x: 0, y: 0 },
+  },
+];
