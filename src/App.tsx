@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import { mockTiles } from "./Components/tiles";
 import Tile from "./Components/Tile";
 
@@ -15,7 +15,6 @@ function App() {
   }, []);
 
   useEffect(() => {
-    console.log("tiles", tiles);
     localStorage.setItem("tiles", JSON.stringify(tiles));
   }, [tiles]);
 
