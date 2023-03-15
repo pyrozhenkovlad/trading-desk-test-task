@@ -1,4 +1,3 @@
-import { useRef, useState, useEffect } from "react";
 import Draggable from "react-draggable";
 
 interface TileProps {
@@ -57,14 +56,14 @@ const Tile = (props: TileProps) => {
         <div
           className={`border ${
             props.active ? "border-blue-500" : "border-black"
-          } h-[150px] w-[300px]  ${
+          } h-[150px] w-[300px]   ${
             props.active ? " z-20" : "z-10"
           } bg-gray-100 absolute cursor-pointer`}
         >
           <div
             className={`h-10  flex flex-row border ${
               props.active ? "bg-blue-200 border-b-blue-500" : "border-b-black "
-            } ] `}
+            }  `}
           >
             <div
               className="self-center grid border ml-1 bg-white place-content-center h-4 w-4 cursor-pointer"

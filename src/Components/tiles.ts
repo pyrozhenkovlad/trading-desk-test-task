@@ -5,7 +5,7 @@ export const mockTiles = [
     status: "inTradingDesk",
     active : false,
     size: { width: "300px", height: "100px" },
-    position: { x: 0, y: 0 },
+    position: { x: 100, y: 100 },
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const mockTiles = [
     status: "inTradingDesk",
     active : false,
     size: { width: "300px", height: "100px" },
-    position: { x: 0, y: 0 },
+    position: { x: 200, y: 200 },
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const mockTiles = [
     status: "inTradingDesk",
     active : false,
     size: { width: "300px", height: "100px" },
-    position: { x: 0, y: 0 },
+    position: { x: 300, y: 300 },
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const mockTiles = [
     status: "inTradingDesk",
     active : false,
     size: { width: "300px", height: "100px" },
-    position: { x: 0, y: 0 },
+    position: { x: 400, y:400 },
   },
   {
     id: 5,
@@ -37,6 +37,6 @@ export const mockTiles = [
     status: "inTradingDesk",
     active : false,
     size: { width: "300px", height: "100px" },
-    position: { x: 0, y: 0 },
+    position: { x: 500, y: 500 },
   },
 ];

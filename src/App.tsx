@@ -41,32 +41,29 @@ function App() {
   };
 
   return (
-    <>
-      <div className="h-screen relative">
-        <div className="flex flex-col gap-y-4">
-          {tiles.map((tile) => (
-            <Tile
-              //@ts-ignore
-              setTiles={setTiles}
-              key={tile.id}
-              id={tile.id}
-              title={tile.name}
-              active={tile.active}
-              size={tile.size}
-              position={tile.position}
-              onClick={activeHandler}
-            />
-          ))}
-        </div>
-        <div className="grid place-content-center fixed top-[40%] left-[40%]">
-          <div className="border border-black grid place-content-center w-80 h-40">
-            <p className="cursor-pointer" onClick={returnLastTile}>
-              Return tile to trading desk
-            </p>
-          </div>
+    <div className="h-screen relative">
+      {tiles.map((tile) => (
+        <Tile
+          //@ts-ignore
+          setTiles={setTiles}
+          key={tile.id}
+          id={tile.id}
+          title={tile.name}
+          active={tile.active}
+          size={tile.size}
+          position={tile.position}
+          onClick={activeHandler}
+        />
+      ))}
+
+      <div className="grid place-content-center fixed top-[40%] left-[40%]">
+        <div className="border border-black grid place-content-center w-80 h-40">
+          <p className="cursor-pointer" onClick={returnLastTile}>
+            Return tile to trading desk
+          </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
